@@ -31,5 +31,14 @@ with open('ltw18_bewerberdaten.csv') as csvfile:
 		Bewerber(row[0], row[1], row[2], row[3], row[4], row[5], row[6], row[7], row[8])
 
 
-for obj in Bewerber._instances:
-	print(obj)
+def list_of_partys():
+	list_of_partys = []
+
+	for obj in Bewerber._instances:
+		if obj.wahlvorschlagstraeger not in list_of_partys:
+			list_of_partys.append(obj.wahlvorschlagstraeger)
+
+	return(list_of_partys)
+
+print(list_of_partys())
+
