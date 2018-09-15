@@ -1,7 +1,4 @@
-"Wahlkreis-
-schlüssel",Wahlkreisname,Wahlvorschlagsträger,"Listenplatz-
-nummer","Bewerber im
-Stimmkreis",Titel,(Adels)zusatz,Vorname,Nachname,Geburtsjahr
+Wahlkreisschlüssel,Wahlkreisname,Wahlvorschlagsträger,Listenplatznummer,Bewerber im Stimmkreis,Titel,(Adels) zusatz,Vorname,Nachname,Geburtsjahr
 1,Oberbayern,CSU,101,121,,,Ilse,Aigner,1964
 1,Oberbayern,CSU,102,122,Dr.,,Marcel,Huber,1958
 1,Oberbayern,CSU,103,108,Dr.,,Ludwig,Spaenle,1961
